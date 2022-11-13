@@ -55,3 +55,7 @@ Let suppose you have done some changes  and you want to go back to previous comm
 then use this command
 git checkout -f
 git status
+
+Basically github hosting our remote reposistoty
+git remote add origin https://github.com/dhiman1056/GitTuttorialDemmo.git(this url name is origin)
+git push -u origin master
