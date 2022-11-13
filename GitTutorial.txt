@@ -1,0 +1,46 @@
+Git is a version control system
+1)We can easily recover files
+2)who introduce an issue and when?
+3)we can rollback to previous working state
+
+
+Bitbucket,Github and Gitlab are hosting companies which host git reposistory.
+
+Git captures snapshot not the differences.
+.git basically contains whole project history.
+Almost every operation is local
+Git has integrity means files are safe and secure.
+
+command
+----
+pwd- Presnet working directory
+git status
+git config --global user.name="dheeraj"
+git config --global user.email="dhimandheeraj111@gmail.com"
+git config --list
+
+command to check username and email
+git config user.name
+git config user.email
+
+how to set linux editor in git
+git config --global core.editor vim
+git config --global core.editor emacs
+
+
+git init -- to create new git repo or to initilize git repo (create empty git reposistory)
+git add --a (means move all files in staging area)(--a means all)
+git commit -m "Initial commit"
+git log (to check all commit)
+
+rm -rf .git (to delete all files in git repo)
+git diff (to compare working directory and staging area)
+git diff --staged (compare previous with current  staging area)
+git commit -a -m "message" (to skip staging area)
+git rm third.txt (to remove a file)
+git mv first.txt first_renamed.txt (to renam a file)
+git rm --cacahed filename (to untrack a file)
+
+git log -p
+git log -p -3 (will show only 3 commit changes)
+git log --stat (short summary for commit message)
