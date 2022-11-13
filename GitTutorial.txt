@@ -44,3 +44,14 @@ git rm --cacahed filename (to untrack a file)
 git log -p
 git log -p -3 (will show only 3 commit changes)
 git log --stat (short summary for commit message)
+
+how to unstag a file in git?
+git restore --staged filename
+
+how to restore or unmodified a file?
+git checkout -- filename
+
+Let suppose you have done some changes  and you want to go back to previous commit
+then use this command
+git checkout -f
+git status
