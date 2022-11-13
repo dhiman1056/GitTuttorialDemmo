@@ -59,3 +59,13 @@ git status
 Basically github hosting our remote reposistoty
 git remote add origin https://github.com/dhiman1056/GitTuttorialDemmo.git(this url name is origin)
 git push -u origin master
+
+
+git remote
+git remote -v
+
+
+we can also give alias name to long commands in git
+
+git config --global alias.st status
+
